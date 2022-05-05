@@ -24,6 +24,9 @@
 		A8968122281B1FA90076532E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8968121281B1FA80076532E /* MainView.swift */; };
 		A8968126281B204B0076532E /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8968125281B204B0076532E /* TabBarView.swift */; };
 		A8FB93C22824071A002F8B33 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8FB93C12824071A002F8B33 /* Launch Screen.storyboard */; };
+		A8FB93C428240DA1002F8B33 /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FB93C328240DA1002F8B33 /* PhotoModel.swift */; };
+		A8FB93C628240DC2002F8B33 /* RoverModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FB93C528240DC2002F8B33 /* RoverModel.swift */; };
+		A8FB93C828240DE2002F8B33 /* CameraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FB93C728240DE2002F8B33 /* CameraModel.swift */; };
 		E6E27F14EE839EA6F28BF31B /* Pods_AppcentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 509EF328A36DDD99331D8539 /* Pods_AppcentTests.framework */; };
 		EEA649AD3A3FD75B181BE787 /* Pods_Appcent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA0F4BEC799339A44A60BE2A /* Pods_Appcent.framework */; };
 /* End PBXBuildFile section */
@@ -71,6 +74,9 @@
 		A8968121281B1FA80076532E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		A8968125281B204B0076532E /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		A8FB93C12824071A002F8B33 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		A8FB93C328240DA1002F8B33 /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
+		A8FB93C528240DC2002F8B33 /* RoverModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoverModel.swift; sourceTree = "<group>"; };
+		A8FB93C728240DE2002F8B33 /* CameraModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraModel.swift; sourceTree = "<group>"; };
 		B3AD2DA296A996E3B629DB27 /* Pods-Appcent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appcent.release.xcconfig"; path = "Target Support Files/Pods-Appcent/Pods-Appcent.release.xcconfig"; sourceTree = "<group>"; };
 		B87AF1570176DE063C736DED /* Pods-Appcent-AppcentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appcent-AppcentUITests.release.xcconfig"; path = "Target Support Files/Pods-Appcent-AppcentUITests/Pods-Appcent-AppcentUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BA0F4BEC799339A44A60BE2A /* Pods_Appcent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Appcent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -220,6 +226,9 @@
 			children = (
 				A8968113281AD20A0076532E /* NasaModel.swift */,
 				A8648A4A281DD5BA00154F73 /* TabName.swift */,
+				A8FB93C328240DA1002F8B33 /* PhotoModel.swift */,
+				A8FB93C528240DC2002F8B33 /* RoverModel.swift */,
+				A8FB93C728240DE2002F8B33 /* CameraModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -523,14 +532,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8FB93C828240DE2002F8B33 /* CameraModel.swift in Sources */,
 				A8069F16281BEDB2000D1119 /* ViewModel.swift in Sources */,
 				A879C73928215D22002AB0FE /* DetailPage.swift in Sources */,
 				A89680DE281ACFB60076532E /* ContentView.swift in Sources */,
 				A8968126281B204B0076532E /* TabBarView.swift in Sources */,
 				A8968122281B1FA90076532E /* MainView.swift in Sources */,
 				A8968114281AD20A0076532E /* NasaModel.swift in Sources */,
+				A8FB93C628240DC2002F8B33 /* RoverModel.swift in Sources */,
 				A83E430528201D8200355D88 /* Constants.swift in Sources */,
 				A8648A4B281DD5BA00154F73 /* TabName.swift in Sources */,
+				A8FB93C428240DA1002F8B33 /* PhotoModel.swift in Sources */,
 				A8968116281AD2470076532E /* Network.swift in Sources */,
 				A89680DC281ACFB60076532E /* AppcentApp.swift in Sources */,
 			);
