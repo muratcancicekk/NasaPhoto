@@ -1,0 +1,6 @@
+framework module Pods_Appcent_AppcentUITests {
+  umbrella header "Pods-Appcent-AppcentUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
