@@ -84,6 +84,7 @@ struct CuriosityCar: View {
                                 ContentView(nasaPhoto: index).onAppear {
                                     print(viewModel.pageNumber)
                                     print(index)
+                                    print("")
                                     viewModel.cellIndex += 1
                                     viewModel.shouldLoadData()
                                 }.onTapGesture {
