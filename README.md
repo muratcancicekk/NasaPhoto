@@ -1,7 +1,5 @@
 # NasaPhoto
 
-# NasaPhoto
-
 
 
 Verileri çektiğim api'leri kullanabilmek için öncelikle bir adet liste kullandım. Çekeceğim verileri 'NasaModel' adında model dosyasını oluşturdum ve network katmanınıda sorunsuz bir şekilde oluşturduktan sonra verileri çektim. Her bir araç için bir view oluşturmak yerine apide araç ismini değiştirdim ve tek bir viewde 3 aracıda gösterdim.
